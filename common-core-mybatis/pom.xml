@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>common-tool</artifactId>
-        <groupId>org.common</groupId>
-        <version>2.6.0</version>
+        <groupId>io.github.arrowv</groupId>
+        <version>2.1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -34,7 +34,7 @@
         </dependency>
 
         <dependency>
-            <groupId>org.common</groupId>
+            <groupId>io.github.arrowv</groupId>
             <artifactId>common-core-tool</artifactId>
             <version>${common.tool.version}</version>
         </dependency>

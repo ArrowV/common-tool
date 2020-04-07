@@ -71,9 +71,9 @@ logging:
 
 # mybatis
 mybatis-plus:
-  mapper-locations: classpath:org/common/**/mapper/*Mapper.xml
+#  mapper-locations: classpath:io/github/**/mapper/*Mapper.xml
   #实体扫描，多个package用逗号或者分号分隔
-  typeAliasesPackage: org.common.**.entity
+  typeAliasesPackage: io.github.arrowv.**.entity
   #typeEnumsPackage: org.common.dashboard.entity.enums
   global-config:
     # 关闭MP3.0自带的banner
@@ -100,4 +100,4 @@ mybatis-plus:
 swagger:
   title:  接口文档系统
   description:  接口文档系统
-  version: 2.6.0
+  version: 2.1.0
