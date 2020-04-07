@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="636a84f1-913c-4b6d-bf75-f0e98f2a8367" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/config/CommonExecutorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/config/CommonWebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/config/MybatisPlusConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/config/RedisTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/config/RetryConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/ctrl/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/file/CommonFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/file/CommonFileProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/file/CommonFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/file/FileProxyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/file/IFileProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/logger/RequestLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/props/CommonAsyncProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/redis/RedisKeySerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/java/org/common/core/boot/resolver/TokenArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/resources/config/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/resources/log/logback_dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/resources/log/logback_prod.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/src/main/resources/log/logback_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/META-INF/spring-devtools.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/config/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/log/logback_dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/log/logback_prod.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/log/logback_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/config/CommonExecutorConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/config/CommonWebMvcConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/config/MybatisPlusConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/config/RedisTemplateConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/config/RetryConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/ctrl/CommonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/file/CommonFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/file/CommonFileProxyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/file/CommonFileUtil$FileSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/file/CommonFileUtil$NameComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/file/CommonFileUtil$SizeComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/file/CommonFileUtil$TypeComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/file/CommonFileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/file/FileProxyManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/file/IFileProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/logger/RequestLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/props/CommonAsyncProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/redis/RedisKeySerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/classes/org/common/core/boot/resolver/TokenArgumentResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/common-core-boot.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-boot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/src/main/java/org/common/core/mp/CommonMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/src/main/java/org/common/core/mp/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/src/main/java/org/common/core/mp/base/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/src/main/java/org/common/core/mp/base/BaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/src/main/java/org/common/core/mp/plugins/SqlLogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/src/main/java/org/common/core/mp/support/BaseEntityWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/src/main/java/org/common/core/mp/support/Condition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/src/main/java/org/common/core/mp/support/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/src/main/java/org/common/core/mp/support/SqlKeyword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/classes/org/common/core/mp/CommonMetaObjectHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/classes/org/common/core/mp/base/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/classes/org/common/core/mp/base/BaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/classes/org/common/core/mp/base/BaseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/classes/org/common/core/mp/plugins/SqlLogInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/classes/org/common/core/mp/support/BaseEntityWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/classes/org/common/core/mp/support/Condition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/classes/org/common/core/mp/support/Query.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/classes/org/common/core/mp/support/SqlKeyword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/common-core-mybatis.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/src/main/java/org/common/core/swagger/SwaggerAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/src/main/java/org/common/core/swagger/SwaggerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/src/main/java/org/common/core/swagger/SwaggerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/target/classes/META-INF/spring-devtools.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/target/classes/org/common/core/swagger/SwaggerAutoConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/target/classes/org/common/core/swagger/SwaggerProperties$Authorization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/target/classes/org/common/core/swagger/SwaggerProperties$AuthorizationScope.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/target/classes/org/common/core/swagger/SwaggerProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/target/classes/org/common/core/swagger/SwaggerUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/target/common-core-swagger.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/api/IResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/api/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/api/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/config/JacksonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/config/MessageConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/config/ToolConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/config/XssConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/constant/BladeConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/constant/RoleConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/constant/SystemConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/convert/BladeConversionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/convert/BladeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/convert/EnumToStringConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/convert/StringToEnumConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/jackson/AbstractReadWriteJackson2HttpMessageConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/jackson/BladeBeanSerializerModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/jackson/BladeJavaTimeModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/jackson/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/jackson/MappingApiJackson2HttpMessageConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/node/BaseNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/node/ForestNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/node/ForestNodeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/node/ForestNodeMerger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/node/INode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/node/NodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/node/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/BaseBeanCopier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/BeanProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/FastStringWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/IMultiOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/ImagePosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/Kv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/StrFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/StrSpliter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/Try.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/xss/HtmlFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/xss/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/xss/XssProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/support/xss/XssUrlProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/AesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/BeanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/CharPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/Charsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/ClassUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/CollectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/ConcurrentDateFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/ConvertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/DigestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/Func.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/IoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/Lazy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/NumberUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/ObjectUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/OkHttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/PathUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/ProtostuffUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/RandomType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/ReflectUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/RegexUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/ResourceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/SpringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/StringPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/SuffixFileFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/UrlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/src/main/java/org/common/core/tool/utils/XmlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/META-INF/spring-devtools.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/api/IResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/api/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/api/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/config/JacksonConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/config/MessageConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/config/ToolConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/config/XssConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/constant/BladeConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/constant/RoleConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/constant/SystemConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/convert/BladeConversionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/convert/BladeConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/convert/EnumToStringConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/convert/StringToEnumConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/AbstractReadWriteJackson2HttpMessageConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/BladeBeanSerializerModifier$NullJsonSerializers$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/BladeBeanSerializerModifier$NullJsonSerializers$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/BladeBeanSerializerModifier$NullJsonSerializers$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/BladeBeanSerializerModifier$NullJsonSerializers$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/BladeBeanSerializerModifier$NullJsonSerializers$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/BladeBeanSerializerModifier$NullJsonSerializers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/BladeBeanSerializerModifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/BladeJavaTimeModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/JsonUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/JsonUtil$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/JsonUtil$JacksonHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/JsonUtil$JacksonObjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/JsonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/jackson/MappingApiJackson2HttpMessageConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/node/BaseNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/node/ForestNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/node/ForestNodeManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/node/ForestNodeMerger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/node/INode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/node/NodeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/node/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/BaseBeanCopier$BeanCopierKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/BaseBeanCopier$Generator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/BaseBeanCopier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/BeanProperty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/FastStringWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/IMultiOutputStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/ImagePosition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/Kv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/StrFormatter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/StrSpliter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/Try$UncheckedFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/Try.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/xss/HtmlFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/xss/XssFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/xss/XssHttpServletRequestWrapper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/xss/XssHttpServletRequestWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/xss/XssProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/support/xss/XssUrlProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/AesUtil$Pkcs7Encoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/AesUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/Base64Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/BeanUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/CharPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/Charsets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/ClassUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/CollectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/ConcurrentDateFormat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/ConvertUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/DateTimeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/DigestUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/Exceptions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/FileUtil$TrueFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/Func.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/ImageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/IoUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/Lazy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/NumberUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/ObjectUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/OkHttpUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/PathUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/ProtostuffUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/RandomType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/ReflectUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/RegexUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/ResourceUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/SpringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/StringPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/SuffixFileFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/UrlUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/WebUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/XmlUtil$XmlHelperHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/classes/org/common/core/tool/utils/XmlUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/common-core-tool.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-core-tool/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-tool.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mvnRepo" />
+        <option name="mavenHome" value="D:/DevelopTools/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\DevelopTools\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1a80ss1JKawpCcTK6NNkcqMAALw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common-core-boot/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myproject\common-tool\common-core-boot\src\main\resources" />
+      <recent name="D:\myproject\common-tool\common-core-swagger\src\main\java\org\common\core\swagger" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="636a84f1-913c-4b6d-bf75-f0e98f2a8367" name="Default Changelist" comment="" />
+      <created>1586102122429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586102122429</updated>
+      <workItem from="1586102124252" duration="1049000" />
+      <workItem from="1586135656882" duration="6042000" />
+      <workItem from="1586143907527" duration="12913000" />
+      <workItem from="1586220262168" duration="1221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="88" key="#Project_Structure" timestamp="1586170133402">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="451" y="88" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1586170133402" />
+    <state x="717" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1586169717992">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="717" y="152" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1586169717992" />
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586169925371">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1586169925371" />
+    <state width="1864" height="319" key="GridCell.Tab.0.bottom" timestamp="1586187858060">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1586187858060" />
+    <state width="1864" height="319" key="GridCell.Tab.0.center" timestamp="1586187858060">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="319" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1586187858060" />
+    <state width="1864" height="319" key="GridCell.Tab.0.left" timestamp="1586187858060">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="319" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1586187858060" />
+    <state width="1864" height="319" key="GridCell.Tab.0.right" timestamp="1586187858060">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="319" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1586187858060" />
+    <state x="329" y="55" key="SettingsEditor" timestamp="1586138050349">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="329" y="55" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1586138050349" />
+    <state x="455" y="127" width="1009" height="778" key="find.popup" timestamp="1586141909127">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="455" y="127" width="1009" height="778" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1586141909127" />
+    <state x="186" y="73" key="new project wizard" timestamp="1586168563093">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="186" y="73" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1586168563093" />
+    <state x="531" y="-24" width="838" height="1032" key="search.everywhere.popup" timestamp="1586141888963">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="531" y="-24" width="838" height="1032" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1586141888963" />
+  </component>
+</project>
